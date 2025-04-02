@@ -1,0 +1,47 @@
+# Ignore SQL Server Management Studio (SSMS) related files
+*.suo
+*.user
+*.bak
+*.trn
+*.mdf
+*.ldf
+*.ndf
+*.sqlproj.user
+*.dbmdl
+*.jfm
+
+# Ignore SSIS project files
+bin/
+obj/
+*.dtproj.user
+*.ispac
+
+# Ignore SSRS project files
+*.rds
+*.rdl.data
+*.rdl.refresh
+
+# Ignore Visual Studio temporary files
+.vscode/
+*.ncb
+*.aps
+*.pch
+*.vs
+*.tmp
+*.log
+*.sdf
+*.cache
+*.tlog
+*.ipch
+*.ilk
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+
+# Ignore deployment and generated files
+*.publish.xml
+*.deploy
+*.generated.cs
